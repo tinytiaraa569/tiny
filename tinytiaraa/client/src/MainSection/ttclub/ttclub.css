@@ -1,0 +1,69 @@
+.ttclub{
+    margin: 20px 0;
+    width: 100%;
+    height: 70vh;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #fff;
+    /* display: flex;
+    justify-content:center ;
+    align-items: center; */
+    position: relative;
+}
+.ttclubmain{
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.279),rgba(0, 0, 0, 0.284));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ttclubmainadjust{
+    color: white;
+}
+
+.ttclub h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.ttclub video{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.ttclub input{
+    font-size: 28px;
+    margin-top: 10px;
+    width: 90%;
+    padding: 8px 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.ttclub button{
+    margin-top: 50px;
+    padding: 15px 25px;
+    border: none;
+    background-color: #ddd;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+.ttclubmainadjust input{
+    color: white;
+
+}
+.ttclub button:hover{
+    background-color: rgb(62, 57, 57);
+    color: white;
+   
+}

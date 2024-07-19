@@ -1,0 +1,42 @@
+.Aboutwho{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+
+}
+.aboutwhosection{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://lirp.cdn-website.com/48f148a6/dms3rep/multi/opt/About+Us+banner+TT+new+3-2880w.png);
+    background-size: 100% 75vh;
+    mix-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whosecioncontent{
+    text-align: center;
+    width: 40%;
+    height: auto;
+    color: white;
+   
+}
+.whosecioncontent h1{
+    font-size: 60px;
+}
+@media (max-width:920px) {
+    .whosecioncontent h1{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width:650px) {
+    .whosecioncontent p{
+        font-size: 14px;
+    }
+    
+}

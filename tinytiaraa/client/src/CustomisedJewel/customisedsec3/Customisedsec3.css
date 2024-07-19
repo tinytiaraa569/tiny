@@ -1,0 +1,73 @@
+.Customisedsec3{
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.customisedsecmain{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    background-color: salmon;
+    border-radius: 20px;
+}
+.customisedsecmain .customisedsec3imga{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customisedsecmain .customisedsec3imga img{
+    width: 50%;
+    height: 200px;
+}
+.customisedsecmain .customisedsec3content{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customisedsec3content p{
+    font-size: 20px;
+}
+.customisedsec3content button{
+    margin-top: 20px;
+    padding: 18px 28px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+@media (max-width:750px) {
+    .Customisedsec3{
+        padding: 30px 0;
+        height: auto; 
+    }
+    .customisedsecmain .customisedsec3imga{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .customisedsecmain{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .customisedsecmain .customisedsec3content{
+        width: 100%;
+        height: auto;
+        padding: 10px 25px;
+        
+    }
+    .alcenter{
+        text-align: center;
+    }
+    
+}

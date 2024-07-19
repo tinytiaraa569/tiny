@@ -1,0 +1,115 @@
+.Contactsec2main{
+    padding: 15px 0;
+    width: 100%;
+    height: 80vh;
+    font-family: "Poppins", sans-serif;
+    
+    background-color: aliceblue;
+}
+.Contactsec2main h1{
+    text-align: center;
+    font-size: 36px;
+}
+.Contactsec2main h1::after{
+    content: "";
+    width: 5%;
+    height: 4px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.Contactsec2conflex{
+    padding: 20px 0;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.constcattsec2left{
+    width: 30%;
+    height: 60vh;
+}
+.constcattsec2left img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.contactsec2rightcon h3{
+    padding: 12px 0;
+
+}
+.contactsec2rightcon iframe{
+    margin-top: 15px;
+}
+.contactsec2right{
+ 
+    width: 60%;
+    height: 60vh;
+    
+}
+
+.contactsec2rightcon button{
+    margin-top: 20px;
+    padding: 18px 28px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+@media (max-width:1080px) {
+    .constcattsec2left{
+        width: 50%;
+        height: 60vh;
+        padding: 10px 30px;
+    }
+    .contactsec2right{
+        width: 50%;
+        height: 60vh;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width:880px) {
+    .Contactsec2main{
+        height: auto;
+    }
+    .Contactsec2conflex{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .constcattsec2left{
+        width: 80%;
+        height: 50vh;
+        padding: 10px 30px;
+    }
+    .constcattsec2left img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+    .contactsec2right{
+        width: 80%;
+        height: auto;
+        padding: 10px 30px;
+    }
+    .contactsec2rightcon h3{
+        text-align: center;
+    }
+    .contactsec2rightcon iframe{
+        width: 100%;
+        height: 40vh;
+        margin-top: 15px;
+    }
+    .contactbtncenter{
+        text-align: center;
+    }
+
+    
+}

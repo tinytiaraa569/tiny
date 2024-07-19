@@ -1,0 +1,67 @@
+.Aboutsection4 {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/pexels-photo-2288230-2880w.jpeg);
+    background-size: 100% 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutsection4con{
+    position: absolute;
+    left: 10%;
+    padding: 30px 50px;
+    width: 40%;
+    background-color: #ffffffb1;
+    border-radius: 5px;
+}
+.aboutsection4con p{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.aboutsection4con button{
+    margin: 10px 20px;
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.aboutsection4con button:hover{
+    background-color: rgb(41, 41, 41);
+}
+@media (max-width:920px) {
+    .Aboutsection4 {
+        height: 70vh;   
+    }
+    .aboutsection4con{
+        left: 5%;
+        padding: 10px 20px;
+        width: 60%;
+    }
+}
+@media (max-width:700px) {
+    .Aboutsection4 {
+        background-size: 100% 70vh;
+        height: 70vh;   
+    }
+    .aboutsection4con{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 10px 20px;
+        width: 60%;
+    }
+    .aboutsection4con p{
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

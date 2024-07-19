@@ -1,0 +1,68 @@
+.freqques{
+    padding: 35px 30px;
+    width: 100%;
+    background-color: rgb(216, 232, 247);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+}
+.freqques h1{
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+.freqques p{
+    font-size: 18px;
+}
+.accordiansmain{
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.accordiansleft{
+    width: 45%;
+}
+.accordiansright{
+    width: 45%;
+}
+.freqbtn{
+    padding: 15px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 25px;
+
+}
+
+.accordiansleft img ,.accordiansright img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+@media (max-width:869px) {
+    .accordiansmain{
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+    .accordiansleft{
+        width: 95%;
+    }
+    .accordiansright{
+        width: 95%;
+    }
+}
+
+@media (max-width:600px) {
+    
+.accordiansleft img ,.accordiansright img{
+   
+    margin-right: 2px;
+}
+    
+}

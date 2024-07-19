@@ -1,0 +1,103 @@
+.aboutsection2{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+.aboutsection2main ,.aboutsection2main1{
+    width: 100%;
+    height:60vh;
+    display: flex;
+}
+.aboutsection2main .aboutsecion2img , .aboutsection2main1 .aboutsecion2img1{
+    width: 50%;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+
+}
+.aboutsectionimgcon ,.aboutsectionimgcon1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
+}
+.aboutsectionimgcon h1 ,.aboutsectionimgcon1 h1{
+    font-weight: 600;
+}
+.aboutsection2main .aboutsecion2img img ,.aboutsection2main1 .aboutsecion2img1 img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    transition: all 1s;
+}
+.aboutsection2 .aboutsecion2content ,.aboutsection2 .aboutsecion2content1{
+    padding: 10px 50px;
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.aboutsecion2img:hover img ,.aboutsecion2img1:hover img{
+    transform: scale(1.2);
+    filter: blur(2px);
+}
+
+@media (max-width:750px) {
+    .aboutsection2main{
+        padding: 20px 0;
+        height:auto;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .aboutsection2main .aboutsecion2img{
+        width: 80%;
+        height: 50vh;
+        overflow: hidden;
+        border-radius: 20px;
+
+    }
+    .aboutsection2 .aboutsecion2content{
+        padding: 20px 20px;
+        width: 80%;
+        height: auto;
+    }
+    .aboutsection2main1{
+        padding: 20px 0;
+        height:auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .aboutsection2main1 .aboutsecion2img1{
+        width: 80%;
+        height: 50vh;
+        overflow: hidden;
+        border-radius: 20px;
+
+    }
+    .aboutsection2 .aboutsecion2content1{
+        padding: 20px 20px;
+        width: 80%;
+        height: auto;
+
+    }
+    .aboutsection2main .aboutsecion2img img ,.aboutsection2main1 .aboutsecion2img1 img{
+       border-radius: 20px;
+    }
+    .aboutsectionimgcon ,.aboutsectionimgcon1{
+        border-radius: 20px;
+
+    }
+}

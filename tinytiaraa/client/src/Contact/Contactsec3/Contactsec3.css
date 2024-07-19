@@ -1,0 +1,182 @@
+.contactsec3 {
+    width: 100%;
+    height: 90vh;
+    background-color: #ddd;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0;
+}
+
+.contactsec3 h1 {
+    text-align: center;
+}
+
+.contactsec3 h1::after {
+    content: "";
+    width: 7%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.contactsec3 .contact3secmain {
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contactsec3 .contact3secmain .contactsec3left {
+    width: 40%;
+    height: 75vh;
+
+}
+
+.contactsec3 .contact3secmain .contactsec3right {
+    width: 40%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.contactsec3 .contact3secmain .contactsec3right img {
+    width: 100%;
+    height: 73vh;
+    border-radius: 20px;
+    transition: all 2s;
+    box-shadow: 8px 5px 9px black;
+
+}
+
+.contactsec3 .contact3secmain .contactsec3right:hover img {
+    transform: scale(1.1);
+    filter: grayscale(50%);
+
+}
+
+.contactsec3leftadjust {
+    padding: 10px 0;
+}
+
+.contactsec3leftadjust p {
+    font-size: 18px;
+}
+
+.labelsec label {
+    font-size: 20px;
+}
+
+.labelsec input,
+.labelsec textarea {
+    margin-top: 5px;
+    width: 80%;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 18px;
+}
+
+.bdtext {
+    font-weight: 600;
+}
+
+.sect3submitbtn {
+    width: 80%;
+
+    text-align: center;
+}
+
+.sect3submitbtn button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+@media (max-width:900px) {
+    .contactsec3 .contact3secmain .contactsec3left {
+        width: 50%;
+        height: 75vh;
+
+    }
+
+    .contactsec3 .contact3secmain .contactsec3right {
+        width: 50%;
+        height: 75vh;
+
+    }
+
+    .contactsec3 .contact3secmain {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .contactsec3 .contact3secmain {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .contactsec3 {
+        height: auto;
+    }
+
+    .contactsec3 .contact3secmain .contactsec3left {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .contactsec3 .contact3secmain .contactsec3right {
+        width: 80%;
+        height: 50vh;
+        padding: 30px 0;
+        margin: auto;
+    }
+
+    .contactsec3 .contact3secmain .contactsec3right img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .contactsec3leftadjustsec {
+        text-align: center;
+    }
+
+    .conatctsec3form {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .conatctsec3formflex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .labelsec input,
+    .labelsec textarea {
+        width: 100%;
+    }
+
+    .sect3submitbtn {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+
+}
